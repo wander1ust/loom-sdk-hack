@@ -1,0 +1,20 @@
+.message {
+	background: #eee;
+	width: 35em;
+	padding: 1.5em;
+	margin-left: -5em;
+}
+TextField {
+}
+.spacing-top {
+	padding-top: 1.5em;
+}
+.spacing-left {
+	padding-left: 5em;
+}
+.hide {
+  display: none;
+} 
+.show {
+  display: block;
+}

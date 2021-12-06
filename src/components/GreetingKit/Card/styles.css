@@ -1,0 +1,33 @@
+.greeting-card {
+	margin-top: -18em;
+}
+#name {
+	/*color: skyblue;*/
+	background: #F8FFE8;
+	background: -webkit-linear-gradient(to right, #F8FFE8 0%, #E3F5AB 33%, #B7DF2D 100%);
+	background: -moz-linear-gradient(to right, #F8FFE8 0%, #E3F5AB 33%, #B7DF2D 100%);
+	background: linear-gradient(to right, #F8FFE8 0%, #E3F5AB 33%, #B7DF2D 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/*background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);*/
+	font-size: 4.5em;
+	margin-top: -1.8em;
+	margin-left: 0.35em;
+	text-align: center;
+	display: block;
+	/*font-style: italic;*/
+}
+#card {
+	background-image: url('https://media4.giphy.com/media/MRGfqDh6IcAf2VvAxA/giphy.gif?cid=ecf05e47gh0cyqlm2hzrhx8nql3dubv2517oi4in3z6g0zem&rid=giphy.gif');
+	    width: 500px;
+    height: 500px;
+    background-size: cover;
+    color: white;
+	margin-left: -5em;
+}
+.hide {
+  display: none;
+} 
+.show {
+  display: block;
+}

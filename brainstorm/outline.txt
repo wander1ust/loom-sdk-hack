@@ -1,0 +1,31 @@
+SENDER
+	1. Record video greeting
+		- select template theme (premade / custom)
+		- record voiceover · choose GIF + tune (optional)
+
+	2. Create, attach & e-wrap gift	
+		- gift options
+			digital - gift card, ticket, subscription, Groupon, NFT
+			physical - package delivery	
+		gift == option ? render matching img :
+			default to generic mystery item or user uploaded image
+		- choose wrapping paper
+		- generate custom e-gift link 			
+
+	3. Add text message
+		- embed Loom video	
+		- append unique gift url (to body message + as video action item CTA)
+
+	4. Review & Send	
+		- set delivery date + time
+			- reschedule/cancel as needed before greeting is sent (in case of incorrect user input, postponed dates, delayed est. package arrivals, etc.)
+		- send via email, DM on Slack, Discord, LinkedIn, social media
+
+✄┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+RECEIVER
+	View Greeting Bundle
+		1. Watch Video 
+		2. Unwrap Gift 
+		3. Accept Gift 
+		4. Say Thank You - comment / loom video response

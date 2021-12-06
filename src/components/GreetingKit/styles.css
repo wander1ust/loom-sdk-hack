@@ -1,0 +1,33 @@
+.greeting-kit {  
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  position: absolute;
+}  
+
+.greeting-kit, h3 {
+  color: #eee;
+}
+/*iframe {
+  width: 30em;
+}*/
+#loom-video {
+  /*margin-top: '-20em';*/
+  /*left: -10em;*/
+  margin: -12em;
+  padding-bottom: '15em';
+  position: relative;
+}    
+Button, .btn {
+  width: 7em;
+  margin-left: '5em !important';
+  margin-top: '5em !important';
+  display: inline-block;
+  /*position: fixed;*/
+  position: relative;
+}  
+#msg {
+  position: relative;
+  top: -15em;
+}
