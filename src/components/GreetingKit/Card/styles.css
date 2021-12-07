@@ -1,7 +1,7 @@
 .greeting-card {
 	margin-top: -18em;
 }
-#name {
+.name {
 	/*color: skyblue;*/
 	background: #F8FFE8;
 	background: -webkit-linear-gradient(to right, #F8FFE8 0%, #E3F5AB 33%, #B7DF2D 100%);

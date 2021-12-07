@@ -3,7 +3,7 @@ import TextField from "@mui/material/TextField";
 // import { Typography, Box } from "@material-ui/core";
 import './styles.css';
 
-const Message = ({ isRecordingDone, videoUrl }) => {
+const Message = ({ videoUrl, giftImageUrl, giftCardAmount }) => {
   const [recipient, setRecipient] = useState({});
   const [sender, setSender] = useState({});
   const [greeting, setGreeting] = useState('Happy Birthday');
@@ -22,8 +22,8 @@ const Message = ({ isRecordingDone, videoUrl }) => {
   }
 
   return (
-    <div className={`message ${isRecordingDone ? 'show' : 'hide'}`}>
-        <h3>Add a Personal Message</h3>
+    <div className={`message`}>
+        <h3 id='msg-title'>Add a Personal Message</h3>
         <TextField
           focused
           margin="dense"
@@ -77,7 +77,7 @@ const Message = ({ isRecordingDone, videoUrl }) => {
           multiline
           rows={1}
           fullWidth
-          value={`A special message for you${sender.name ? ` from ${sender.name}` : ''}!`}
+          value={`A special message${sender.name ? ` from ${sender.name}` : ''}!`}
         /> 
 
         <div class='spacing-top'></div>
@@ -91,7 +91,8 @@ const Message = ({ isRecordingDone, videoUrl }) => {
           value={
             `${greeting}${recipient.name  ? `, ${recipient.name}` : ''}!
   ${videoUrl ? videoUrl : ''}
-  ${sender.name  ? `- ${sender.name}` : ''}`
+  ${sender.name  ? `- ${sender.name}` : ''}
+  `
           }
         /> 
     </div>

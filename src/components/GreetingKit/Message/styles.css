@@ -3,6 +3,10 @@
 	width: 35em;
 	padding: 1.5em;
 	margin-left: -5em;
+	margin-top: -15em;
+}
+#msg-title {
+	color: #000;
 }
 TextField {
 }

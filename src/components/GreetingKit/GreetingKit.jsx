@@ -4,8 +4,10 @@ import { Router, Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import Button from "@mui/material/Button";
 import './styles.css';
 
-const GreetingKit = ({ videoHTML, isRecordingDone }) => {
+const GreetingKit = ({ videoHTML, videoUrl, isRecordingDone }) => {
   const [step, setStep] = useState(1);
+  const [giftImageUrl, setGiftImageUrl] = useState("");
+  const [giftCardAmount, setGiftCardAmount] = useState(0);
   let navigate = useNavigate();
 
   const handlePreviousClick = (e) => {
@@ -26,10 +28,10 @@ const GreetingKit = ({ videoHTML, isRecordingDone }) => {
         return videoHTML ? <div id='loom-video' dangerouslySetInnerHTML={{ __html: videoHTML }}></div> : <h3>Video is missing.</h3>
         break;
       case 2:
-        return <Gift />
+        return <Gift setStep={setStep} step={step} setGiftImageUrl={setGiftImageUrl} setGiftCardAmount={setGiftCardAmount} />
         break;      
       case 3:
-        return videoHTML ? <Message id='msg' isRecordingDone={isRecordingDone} videoHTML={videoHTML} /> : <h3>Message is missing.</h3>
+        return <Message id='msg' videoHTML={videoHTML} videoUrl={videoUrl} giftImageUrl={giftImageUrl} giftCardAmount={giftCardAmount} />
         break;
       default: 
     }      

@@ -60,7 +60,7 @@ function App() {
           </> 
         } />
       <Route exact path="/assemble-greeting-kit" element={
-          <GreetingKit videoHTML={videoHTML} isRecordingDone={isRecordingDone} />        
+          <GreetingKit videoHTML={videoHTML} videoUrl={videoUrl} isRecordingDone={isRecordingDone} />        
         } />
       </Routes> 
       </>   
