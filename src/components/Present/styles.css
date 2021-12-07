@@ -89,8 +89,28 @@
    opacity: 1;
    transition: 1.5s top 0.1s, 0.5s opacity 0.25s;
 }
- .prize > img {
+ .prize > img, .prize > h2 {
    position: relative;
+}
+.prize:after {
+  content: '$20';
+}
+h2, #text, #amount {
+  color: #eee !important;
+  border: 2px solid #eee;
+  z-index: 2;
+}
+.hide {
+  display: none;
+} 
+.show {
+  display: block;
+}
+#gift-amount {
+  text-align: center;
+  margin-top: 2em;
+  /*z-index: 2;*/
+  /*display: none;*/
 }
  .starburst {
    position: absolute;

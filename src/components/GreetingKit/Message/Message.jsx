@@ -3,10 +3,11 @@ import TextField from "@mui/material/TextField";
 // import { Typography, Box } from "@material-ui/core";
 import './styles.css';
 
+// Generate & add unique gift URL
 const Message = ({ videoUrl, giftImageUrl, giftCardAmount }) => {
   const [recipient, setRecipient] = useState({});
   const [sender, setSender] = useState({});
-  const [greeting, setGreeting] = useState('Happy Birthday');
+  const [greeting, setGreeting] = useState('Get Well Soon'); // hardcoded - temp hack
 
   const handleRecipientNameChange = (e) => {
     setRecipient({...recipient, name: e.target.value});
@@ -82,21 +83,31 @@ const Message = ({ videoUrl, giftImageUrl, giftCardAmount }) => {
 
         <div class='spacing-top'></div>
 
+      {/* message is temporarily hardcoded - change value to defaultValue */}
         <TextField
           id="outlined-multiline-static"
           label="Multiline"
           multiline
-          rows={4}
+          rows={10}
           fullWidth
+          // defaultValue=
           value={
             `${greeting}${recipient.name  ? `, ${recipient.name}` : ''}!
   ${videoUrl ? videoUrl : ''}
-  ${sender.name  ? `- ${sender.name}` : ''}
+Please accept my Loom Greeting Kit! 😊
+
+Your Gift URL: %{UNIQUE_GIFT_URL}%
+Gift Card Amount: ${giftCardAmount}
+
+${sender.name  ? `- ${sender.name}` : ''}
+
+Want to say thank you? Send a Loom video response or add a comment!
   `
           }
         /> 
     </div>
   );
 }
+// Gift Image URL: ${giftImageUrl}
 
 export default Message;

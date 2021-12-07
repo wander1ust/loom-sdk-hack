@@ -146,7 +146,7 @@ const Video = ({ setIsRecordingDone, isRecordingDone, setVideoUrl, videoUrl, set
   return (
     <>
       <button id={BUTTON_ID} style={Object.assign({}, buttonStyle/*, (isRecording || isRecordingDone) ? hide : show*/)} /*onClick={useNavigateToView}*/>Record</button>
-      <h3 /*className={showComponent}*/ style={{color: '#eee', marginTop: '-7em', paddingBottom: '5em'}}>Loom Greeting Video</h3>
+    {/*  <h3 style={{color: '#eee', marginTop: '-7em', paddingBottom: '5em'}}>Loom Greeting Video Maker</h3>*/}
       
  {/*     <iframe src="https://www.loom.com/embed/85924dbbc70e4e89ab95bdf47f515471" style={{width: "100%", height: "100%"}} frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>*/}
 

@@ -4,10 +4,10 @@ import { Router, Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import Button from "@mui/material/Button";
 import './styles.css';
 
-const GreetingKit = ({ videoHTML, videoUrl, isRecordingDone }) => {
+const GreetingKit = ({ videoHTML, videoUrl, isRecordingDone, giftCardAmount, setGiftCardAmount }) => {
   const [step, setStep] = useState(1);
   const [giftImageUrl, setGiftImageUrl] = useState("");
-  const [giftCardAmount, setGiftCardAmount] = useState(0);
+  // const [giftCardAmount, setGiftCardAmount] = useState(0);
   let navigate = useNavigate();
 
   const handlePreviousClick = (e) => {

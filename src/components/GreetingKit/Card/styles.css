@@ -1,5 +1,6 @@
 .greeting-card {
-	margin-top: -18em;
+	margin-top: -15em;
+	width: 600px;
 }
 .name {
 	/*color: skyblue;*/
@@ -15,11 +16,13 @@
 	margin-left: 0.35em;
 	text-align: center;
 	display: block;
+	letter-spacing: 0.02em;
+	/*text-transform: uppercase;*/
 	/*font-style: italic;*/
 }
 #card {
-	background-image: url('https://media4.giphy.com/media/MRGfqDh6IcAf2VvAxA/giphy.gif?cid=ecf05e47gh0cyqlm2hzrhx8nql3dubv2517oi4in3z6g0zem&rid=giphy.gif');
-	    width: 500px;
+	/*background-image: url('https://media4.giphy.com/media/MRGfqDh6IcAf2VvAxA/giphy.gif?cid=ecf05e47gh0cyqlm2hzrhx8nql3dubv2517oi4in3z6g0zem&rid=giphy.gif');*/
+	    /*width: 500px;*/
     height: 500px;
     background-size: cover;
     color: white;
@@ -30,4 +33,13 @@
 } 
 .show {
   display: block;
+}
+.caret-icon {
+  margin: 1em auto;
+  margin-left: 0.5em;
+  /*padding: 2em;*/
+  color: #eee;
+  width: 8em;
+  font-size: 1.3em;
+  /*display: inline-block;*/
 }

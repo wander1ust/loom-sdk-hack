@@ -4,3 +4,4 @@ export { default as Present } from './Present/Present';
 export { default as Message } from './GreetingKit/Message/Message';
 export { default as Gift } from './GreetingKit/Gift/Gift';
 export { default as GreetingKit } from './GreetingKit/GreetingKit';
+export { default as ThemeSelector } from './GreetingKit/ThemeSelector/ThemeSelector';

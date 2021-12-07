@@ -9,13 +9,14 @@ import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import './styles.css';
 
+// TODO: refactor redundant code - abstract
 const Gift = ({ isRecordingDone, setStep, step, setGiftImageUrl, setGiftCardAmount }) => {
   // const [giftImageUrl, setGiftImageUrl] = useState("");
   // const [giftCardAmount, setGiftCardAmount] = useState(0);
   const [open, setOpen] = useState(false);
 
   const showDisclaimer = () => {
-    return <h6 id='disclaimer'>* DISCLAIMER: All company names, logos, and gift card and gift images are trademarks&#8482; or registered&#174; trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. All third party trademarks (including logos and icons) referenced in this project remain the property of their respective owners. </h6>
+    return <h6 id='disclaimer'>* DISCLAIMER: All company names, logos, gift cards and gift card images are trademarks&#8482; or registered&#174; trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. All third party trademarks (including logos and icons) referenced in this project remain the property of their respective owners. </h6>
   }
   const listTMsandImgSource = () => {
     return <div id='credit'>
@@ -26,7 +27,14 @@ const Gift = ({ isRecordingDone, setStep, step, setGiftImageUrl, setGiftCardAmou
           <a href='https://freepngimg.com/brands/starbucks'>Image Source</a>     <div class='spacing-top'></div> 
 
             <span className={'tm'}>Amazon &#8482;</span> <br/>
-          <a href='https://www.pngmart.com/files/10/Amazon-Gift-Card-PNG-File.png'>Image Source</a><div class='spacing-top'></div>
+          <a href='https://www.pngmart.com/files/10/Amazon-Gift-Card-PNG-File.png'>Image Source</a><div class='spacing-top'></div>            
+
+          <span className={'tm'}>airbnb &#8482;</span> <br/>
+          <a href='https://d30s7yzk2az89n.cloudfront.net/images/brands/b656796-300w-326ppi.png'>Image Source</a><div class='spacing-top'></div>         
+          <span className={'tm'}>Tango &#8482;</span> <br/>
+          <a href='https://d30s7yzk2az89n.cloudfront.net/images/brands/b395246-300w-326ppi.png'>Image Source</a><div class='spacing-top'></div>          
+          <span className={'tm'}>Freshly &#8482;</span> <br/>
+          <a href='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.amazonaws.com%2Fabn-prod%2Fwp-content%2Fuploads%2Fsites%2F14%2F2019%2F07%2FFreshly-Logo-1000x576.png'>Image Source</a><div class='spacing-top'></div>
 
                   <span className={'tm'}>Target &#8482;</span> <br/>
           <a href='https://www.svmcards.com/buy-target-gift-card'>Image Source</a> <div class='spacing-top'></div>
@@ -62,9 +70,9 @@ const Gift = ({ isRecordingDone, setStep, step, setGiftImageUrl, setGiftCardAmou
 
   const showDialog = () => {
     return  (     
-      <Dialog open={open} onClose={handleClose}>
-          <DialogTitle>Gift Details</DialogTitle>
-          <DialogContent>
+      <Dialog id='dialog' open={open} onClose={handleClose}>
+          <DialogTitle id='dialog-title'>Gift Details</DialogTitle>
+          <DialogContent id='dialog-content'>
    {/*         <DialogContentText>
             </DialogContentText>*/}
             <TextField
@@ -91,7 +99,6 @@ const Gift = ({ isRecordingDone, setStep, step, setGiftImageUrl, setGiftCardAmou
     showDialog();
     setOpen(true)
     setGiftImageUrl(e.currentTarget.getAttribute('src'));
-    // console.log(e.currentTarget.getAttribute('src'));
   }
   return (
     <div className={`gift`}>
@@ -101,48 +108,44 @@ const Gift = ({ isRecordingDone, setStep, step, setGiftImageUrl, setGiftCardAmou
       <div class='title'>Wrap A Gift!</div>
       <Grid className={'gift-gallery'} container justify="center" spacing={4}>
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-        <Grid item xs={6}>
+      <Grid item xs={4}>
+          <img id='visa-giftcard' src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcontestchest.com%2Fimages%2Fwin-25-visa-gift-card-and-open-season-1-2-and-3-on-dvd.png&f=1&nofb=1' width='160px' onClick={handleOnClick}/>
+        </Grid>            
+        <Grid item xs={4}>
           <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.svmcards.com%2Fwp-content%2Fuploads%2F2018%2F03%2FDunkin-Donuts-1.png' width='150px' onClick={handleOnClick} />
-{/*          <span className={'tm'}>Dunkin' &#8482;</span> <br/>
-          <a href='https://loom.com'>Image Source</a>*/}
         </Grid>
         <Grid item xs={4}>
           <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffreepngimg.com%2Fthumb%2Fstarbucks%2F66353-and-gift-discounts-starbucks-allowances-card-voucher.png' width='165px' style={{marginTop: '1.4em'}} onClick={handleOnClick} onClick={handleOnClick} />
-{/*          <span className={'tm'}>Starbucks &#8482;</span> <br/>
-          <a href='https://loom.com'>Image Source</a>*/}
         </Grid>
         <Grid item xs={4}>
           <img src='https://www.pngmart.com/files/10/Amazon-Gift-Card-PNG-File.png' width='150px' height='100px' style={{border: '1px solid gray', borderRadius:'0.2em'}} onClick={handleOnClick} />
-        {/*  <span className={'tm'}>Amazon &#8482;</span> <br/>
-          <a href='https://www.svmcards.com/buy-target-gift-card'>Image Source</a>*/}
         </Grid>
         <Grid item xs={4}>
           <img src='https://www.svmcards.com/wp-content/uploads/2018/03/Target-1.png' width='150px' onClick={handleOnClick}/>
-  {/*        <span className={'tm'}>Target &#8482;</span> <br/>
-          <a href='https://www.svmcards.com/buy-target-gift-card'>Image Source</a>*/}
         </Grid>        
         <Grid item xs={4}>
           <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.amazonaws.com%2Ffreebiesupply%2Flarge%2F2x%2Fgroupon-logo-transparent.png' width='150px' style={{border: '1px solid gray', borderRadius:'0.2em', padding:'2em', background:'#eee'}} onClick={handleOnClick}/>
-     {/*     <span className={'tm'}>Groupon &#8482;</span> <br/>
-          <a href='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ogplanet.com%2Fwp-content%2Fuploads%2F2020%2F02%2FFree-AirBNB-Gift-Cards-219x300.png&f=1&nofb=1'>Image Source</a>*/}
+        </Grid>          
+        <Grid item xs={4}>
+          <img src='https://d30s7yzk2az89n.cloudfront.net/images/brands/b656796-300w-326ppi.png' width='150px' height='100px' style={{border: '1px solid gray', borderRadius:'0.3em', background:'#eee'}} onClick={handleOnClick}/>
+        </Grid>          
+        <Grid item xs={4}>
+          <img src='https://d30s7yzk2az89n.cloudfront.net/images/brands/b395246-300w-326ppi.png' width='150px' onClick={handleOnClick}/>
+        </Grid>         
+        <Grid item xs={4}>
+          <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.amazonaws.com%2Fabn-prod%2Fwp-content%2Fuploads%2Fsites%2F14%2F2019%2F07%2FFreshly-Logo-1000x576.png' width='150px' height='90px' style={{border: '1px solid gray', borderRadius:'0.2em', padding:'2em', background:'#eee'}} onClick={handleOnClick}/>
         </Grid>        
         <Grid item xs={4}>
           <img src='https://static1.squarespace.com/static/58e7bc54ebbd1a4ffd8ad781/t/59bfd14fbce1769be9e916de/1505743522213/FreshDirect.png' width='150px' height='90px' style={{border: '1px solid gray', borderRadius:'0.2em', padding:'2em', background:'#eee'}} onClick={handleOnClick}/>
-  {/*        <span className={'tm'}>FreshDirect &#8482;</span> <br/>
-          <a href='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ogplanet.com%2Fwp-content%2Fuploads%2F2020%2F02%2FFree-AirBNB-Gift-Cards-219x300.png&f=1&nofb=1'>Image Source</a>*/}
         </Grid>        
         <Grid item xs={4}>
           <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffiftyonecc.com%2Fwp-content%2Fuploads%2F2020%2F10%2FGrubhub-logo-White.png&f=1&nofb=1' width='150px' style={{border: '1px solid gray', borderRadius:'0.2em', padding:'2em', background:'red'}} onClick={handleOnClick}/>
-    {/*      <span className={'tm'}>GrubHub &#8482;</span> <br/>
-          <a href='https://fiftyonecc.com/home/grubhub-logo-white/'>Image Source</a>*/}
         </Grid>      
       </Grid>
 
       <Grid item xs={4}>
           <img id='apple-giftcard' src='https://support.apple.com/library/content/dam/edam/applecare/images/en_US/itunes-giftcard-single.png' width='160px' onClick={handleOnClick}/>
-          {/*<span className={'tm'}>Apple &#8482;</span> <br/>
-          <a href='https://support.apple.com/en-us/HT204199'>Image Source</a>*/}
-        </Grid>      
+        </Grid>          
 
       </Grid>
       {showDisclaimer()}

@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from "react";
 import { setup, isSupported } from "@loomhq/loom-sdk";
 import { oembed } from "@loomhq/loom-embed";
-import { Video, GreetingCard, Present, Message, Gift, GreetingKit } from "./components";
+import { Video, GreetingCard, Present, Message, Gift, GreetingKit, ThemeSelector } from "./components";
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from "react-router-dom";
 
 function App() {
@@ -9,6 +9,10 @@ function App() {
   const [videoUrl, setVideoUrl] = useState(null);
   const [videoHTML, setVideoHTML] = useState(null);
   const [stage, setStage] = useState('PRE_RECORDING');
+  const [theme, setTheme] = useState("");
+  const [customCardBtnClicked, setCustomCardBtnClicked] = useState(false);
+  const [giftCardAmount, setGiftCardAmount] = useState(0);
+  
 
   const useNavigateToView = () => {
     let navigate = useNavigate();
@@ -22,6 +26,10 @@ function App() {
     //     break;
     //   default: 
     // }      
+  }
+
+  const handleCustomCardBtnClick = (fn, url) => {
+    fn(url);
   }
 
   useEffect(() => {
@@ -51,16 +59,16 @@ function App() {
               <Navigate to='/present' replace={true} />
         } 
         />*/}
-        <Route exact path="/present" element={ <Present/> } />
+        <Route exact path="/present" element={ <Present giftCardAmount={giftCardAmount}/> } />
         <Route exact path="/" element={
-          <> 
-            <GreetingCard isRecordingDone={isRecordingDone} videoHTML={videoHTML} /*className={hideWhenRecordingComplete}*/ /> 
+          <>             
+            <GreetingCard isRecordingDone={isRecordingDone} videoHTML={videoHTML} theme={theme} customCardBtnClicked={customCardBtnClicked} /*className={hideWhenRecordingComplete}*/ /> 
             <Video setIsRecordingDone={setIsRecordingDone} isRecordingDone={isRecordingDone} setVideoUrl={setVideoUrl} setVideoHTML={setVideoHTML} videoHTML={videoHTML} videoUrl={videoUrl} onClick={useNavigateToView} setStage={setStage} /> 
-            {<Message isRecordingDone={isRecordingDone} /*className={showWhenRecordingComplete}*/ videoUrl={videoUrl} />}
+            <ThemeSelector setTheme={setTheme} setCustomCardBtnClicked={setCustomCardBtnClicked} />
           </> 
         } />
       <Route exact path="/assemble-greeting-kit" element={
-          <GreetingKit videoHTML={videoHTML} videoUrl={videoUrl} isRecordingDone={isRecordingDone} />        
+          <GreetingKit videoHTML={videoHTML} videoUrl={videoUrl} isRecordingDone={isRecordingDone} className={showWhenRecordingComplete} setGiftCardAmount={setGiftCardAmount} giftCardAmount={giftCardAmount}/>        
         } />
       </Routes> 
       </>   
