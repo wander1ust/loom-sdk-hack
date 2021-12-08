@@ -1,7 +1,9 @@
 # Loom Greeting Kit
 
 ## Table of Contents 
-**[Installation](#installation)** &nbsp;| &nbsp; **[Configure your environment](#configuring-your-environment)** &nbsp; | &nbsp; **[Description](#description)** &nbsp; | &nbsp; **[Loom Video Demos](#loom-video-demos)** &nbsp; | &nbsp; **[Action Items](#action-items)**
+**[Installation](#installation)** &nbsp;| &nbsp; **[Configure your environment](#configuring-your-environment)** &nbsp; | &nbsp; **[Description](#description)** &nbsp; | &nbsp; **[Loom Video Demos](#loom-video-demos)** &nbsp; | &nbsp; **[Action Items](#action-items)** &nbsp; 
+
+**[Disclaimer](#disclaimer)**
 <br/>
 
 ## Installation 
@@ -50,5 +52,8 @@ More details in **[brainstorm/outline.txt](./brainstorm/outline.txt)**
 <a href="https://www.freshly.com/gifts/redeem" target="_blank"><img alt="video-comment-response" src="public/static/img/loom-gift-CTA.png" width="300px" height=""/></a>
 
 <a href="https://www.freshly.com/gifts/redeem" target="_blank"><img alt="loom hack demo" src="public/static/img/gift-url-CTA.png" width="300px" height=""/></a>
+
+### DISCLAIMER
+All company names, logos, gift cards and gift card images are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. All third party trademarks (including logos and icons) referenced in this project remain the property of their respective owners.
 
 
