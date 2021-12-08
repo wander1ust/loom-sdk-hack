@@ -17,9 +17,10 @@ Rename **`.env.example`** to **`.env`** and add your Loom API key.
 <br/>
 
 ## Description
-A quick hack that illustrates a concept.
+Send a digitally 'hand wrapped' gift with a personal video message <br/>
+Capture, save, collect, and trade precious gifting moments + digital gift receipts
 
-Loom Gift Bundle: Greeting card + Loom Video + Gift + Personal Message
+Loom Greeting Kit: 1 greeting e-card 🌇 + video message 📹 + gift 🎁 + love 💝 
 
 More details in **[brainstorm/outline.txt](./brainstorm/outline.txt)**
 
