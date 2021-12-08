@@ -1,7 +1,7 @@
 # Loom Greeting Kit
 
 ## Table of Contents 
-**[Installation](#installation)** &nbsp;| &nbsp; **[Configuring your environment](#configuring-your-environment)** &nbsp; | &nbsp; **[Description](#description)** &nbsp; | &nbsp; **[Loom Video Demos](#loom-video-demos)**
+**[Installation](#installation)** &nbsp;| &nbsp; **[Configure your environment](#configuring-your-environment)** &nbsp; | &nbsp; **[Description](#description)** &nbsp; | &nbsp; **[Loom Video Demos](#loom-video-demos)**
 <br/>
 
 ## Installation 
@@ -11,7 +11,7 @@
 
 <br/>
 
-### Configuring your environment
+### Configure your environment
 Rename **`.env.example`** to **`.env`** and add your Loom API key.
 
 <br/>
@@ -38,3 +38,8 @@ More details in **[brainstorm/outline.txt](./brainstorm/outline.txt)**
 
 ### App Demo
 <a href="https://rebrand.ly/loom-hack-demo" target="_blank"><img alt="loom hack demo" src="public/static/img/thumbnail/demo.png" width="650px" height=""/></a>
+
+<br/>
+
+## Recipient Response Example - Video Comment
+<img alt="video-comment-response" src="public/static/img/video-comment.png" width="650px" height=""/>
