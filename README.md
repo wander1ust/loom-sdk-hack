@@ -1,7 +1,7 @@
 # Loom Greeting Kit
 
 ## Table of Contents 
-**[Installation](#installation)** &nbsp;| &nbsp; **[Configure your environment](#configuring-your-environment)** &nbsp; | &nbsp; **[Description](#description)** &nbsp; | &nbsp; **[Loom Video Demos](#loom-video-demos)**
+**[Installation](#installation)** &nbsp;| &nbsp; **[Configure your environment](#configuring-your-environment)** &nbsp; | &nbsp; **[Description](#description)** &nbsp; | &nbsp; **[Loom Video Demos](#loom-video-demos)** &nbsp; | &nbsp; **[Action Items](#action-items)**
 <br/>
 
 ## Installation 
@@ -41,5 +41,13 @@ More details in **[brainstorm/outline.txt](./brainstorm/outline.txt)**
 
 <br/>
 
-## Recipient Response Example - Video Comment
+## Action Items
+### Recipient response example - video comment
 <img alt="video-comment-response" src="public/static/img/video-comment.png" width="650px" height=""/>
+
+### E-Gift example via Loom CTA
+<a href="https://www.freshly.com/gifts/redeem" target="_blank"><img alt="video-comment-response" src="public/static/img/loom-gift-CTA.png" width="300px" height=""/></a>
+
+<a href="https://www.freshly.com/gifts/redeem" target="_blank"><img alt="loom hack demo" src="public/static/img/gift-url-CTA.png" width="300px" height=""/></a>
+
+
