@@ -1,4 +1,39 @@
+PERSONALIZED GREETING MAKER 
+
+	Send & Receive personalized video messages + optional e-gifts
+		Send long, sentimental messages or keep msgs short & sweet
+		
+		What's better than trying to read a paper greeting card in someone else's voice,  picturing their faces in your mind? 
+		Watching & listening to a video playback/recording of them speaking/narrating directly to you.
+
+	Eternal playback that lasts 'forever'
+		Capture, save & collect special virtual moments & gift receipts that last a lifetime
+
+	1 Loom app for many occasions ...
+		Holidays
+		Birthdays
+		Thank You
+		Employee/Boss/Teacher Appreciation 
+		Farewell/Goodbye Gifts
+		Client Appreciation
+		Get Well Soon
+		Maternity Leave
+		Company Anniversary
+		Secret Santa
+		Contest Winners
+		Miss You, Thinking of You		
+		...and a bunch more
+
+	Goes beyond the workplace
+	Sending async messages & e-gifts overseas, etc.
+		
+	1 <-> 1 vs 1 <-> many 
+	(e.g. 1 prize winner vs multiple prize winners - generate unique ID for each CTA link)
+
+✄┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
 SENDER
+
 	1. Record video greeting
 		- select template theme (premade / custom)
 		- record voiceover · choose GIF + tune (optional)
@@ -24,8 +59,11 @@ SENDER
 ✄┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
 RECEIVER
+
 	View Greeting Bundle
 		1. Watch Video 
 		2. Unwrap Gift 
 		3. Accept Gift 
-		4. Say Thank You - comment / loom video response
+		4. Say Thank You - comment / record a loom video response
+
+
