@@ -52,18 +52,19 @@ More details in **[brainstorm/outline.txt](./brainstorm/outline.txt)**
 ### Full App Demo (4 min)
 <a href="https://rebrand.ly/loom-hack-demo" target="_blank"><img alt="loom hack demo" src="public/static/img/thumbnail/demo.png" width="350px" height=""/></a>
 
-➕ Click video thumbnail to watch in new browser tab.
+➕ Click thumbnail to watch video in a new browser tab
 
 <br/>
 
 ## Screen Shots
-<img alt="loom response actions" src="public/static/screen%20shots/1.png" width="300px" height=""/> 
+<img alt="loom response actions" src="public/static/screen%20shots/1.png" width="350px" height=""/> 
 <img alt="loom response actions" src="public/static/screen%20shots/3.png" width="375px" height=""/> <br/>
 <img alt="loom response actions" src="public/static/screen%20shots/2.png" width="256px" height=""/> 
 <img alt="loom response actions" src="public/static/screen%20shots/5.png" width="254px" height=""/>
-<img alt="loom response actions" src="public/static/screen%20shots/6.png" width="226px" height=""/> <br/>
+<img alt="loom response actions" src="public/static/screen%20shots/6.png" width="226px" height=""/>
+ <br/>
 <img alt="loom response actions" src="public/static/screen%20shots/4a.png" width="191px" height=""/>
-<img alt="loom response actions" src="public/static/screen%20shots/4.png" width="254px" height=""/>
+<img alt="loom response actions" src="public/static/screen%20shots/4.png" width="230px" height=""/>
 <img alt="loom response actions" src="public/static/img/thank-you-CTA.png" width="204px" height=""/> <br/>
 
 ## Action Items
