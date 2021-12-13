@@ -1,4 +1,4 @@
-# Loom Greeting Kit
+# Gift A Loom 🎁
 
 ## Table of Contents 
 **[Installation](#installation)** &nbsp;| &nbsp; **[Configure your environment](#configure-your-environment)** &nbsp; | &nbsp; **[Description](#description)** &nbsp; | &nbsp; **[Screen Shots](#screen-shots)** &nbsp; | &nbsp; **[The Flow](#the-flow)** &nbsp; |  &nbsp; **[Work Related Themes](#work-related-greeting-card-themes)** &nbsp; | &nbsp; **[Seeing Beyond](#seeing-beyond)** &nbsp; | &nbsp; **[Loom Demos](#loom-demos)** &nbsp; | &nbsp; **[Disclaimer](#disclaimer)**
@@ -31,6 +31,8 @@ Loom Greeting Kit:
 - Send best wishes, support, comfort, strength and encouragement to colleagues, bosses, remote teams in the workplace, through the holidays, and beyond 💚
 
 - Improve employee retention, restore company faith, and boost morale at a time when a genuine show of worker appreciation is needed more than ever. 
+
+> 🌇 + 📹 + 🎁 + 💝 = ✨ 🥰 ✨
 
 <br/>
 
@@ -90,7 +92,7 @@ The business benefit of a kind sendoff is it may garner positive ratings + revie
 
 ### Beyond the Holidays + Workplace
 
-Although this hack was made with the holidays + professional workplace in mind, I see it extending beyond those boundaries. Not everyone celebrates holidays or has days that they look forward to. A virtual greeting app has the potential to reach so many, including hospital patients, cancer patients, the chronically or terminally ill, anyone down on their luck who has lost their job, home, health or loved one, someone going through a life-changing event, pregnant soon-to-be mothers, etc. Greetings aren't only for holidays and celebrations. Words of support and encouragement can mean a lot, especially during hard times. Each have their own charm, but receiving a direct video message can be a much more personal, engaging, empowering and uplifting experience compared to a long, heartfelt text message alone.
+Although this hack was made with the holidays + professional workplace in mind, I see it extending beyond those boundaries. Not everyone celebrates holidays or has days that they look forward to. I personally don't, but I know that for many people, holidays and birthdays bring great joy and excitement, which is really something quite special. A virtual greeting app has the potential to reach so many, including hospital patients, cancer patients, the chronically and terminally ill, anyone down on their luck who has lost their job, home, health, or loved one, someone going through a life crisis, pregnant soon-to-be mothers, etc. Greetings aren't only for holidays and celebrations. Words of support and encouragement can mean a lot, especially during hard times. Each have their own charm, but receiving a direct video message can be a much more personal, engaging, empowering and uplifting experience compared to a long, heartfelt text message alone.
 
 Mainstream video + photo sharing platforms have also introduced and promoted short form videos. But their application is typically one-to-many, where one creator uploads a video to an audience of viewers. So it’s interesting to see Loom approach video sharing from a different angle. What if content creators, artists, influencers and vloggers could interact with their fans or followers 1-1 via async video messaging? This opens the door for a virtual fan meet and greet that can happen whenever & wherever because video messages aren’t time or location dependent. I believe this is something that both parties could appreciate, with the proper checks in place ofc.
 
