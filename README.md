@@ -1,7 +1,7 @@
 # Loom Greeting Kit
 
 ## Table of Contents 
-**[Installation](#installation)** &nbsp;| &nbsp; **[Configure your environment](#configuring-your-environment)** &nbsp; | &nbsp; **[Description](#description)** &nbsp; | &nbsp; **[Screen Shots](#screen-shots)** &nbsp; | &nbsp; **[Action Items](#action-items)** &nbsp; |  &nbsp; **[Work Related Themes](#work-related-greeting-card-themes)** &nbsp; | &nbsp; **[Seeing Beyond](#seeing-beyond)** &nbsp; | &nbsp; **[Loom Demos](#loom-demos)** &nbsp; | &nbsp; **[Disclaimer](#disclaimer)**
+**[Installation](#installation)** &nbsp;| &nbsp; **[Configure your environment](#configure-your-environment)** &nbsp; | &nbsp; **[Description](#description)** &nbsp; | &nbsp; **[Screen Shots](#screen-shots)** &nbsp; | &nbsp; **[The Flow](#the-flow)** &nbsp; |  &nbsp; **[Work Related Themes](#work-related-greeting-card-themes)** &nbsp; | &nbsp; **[Seeing Beyond](#seeing-beyond)** &nbsp; | &nbsp; **[Loom Demos](#loom-demos)** &nbsp; | &nbsp; **[Disclaimer](#disclaimer)**
 
 <br/>
 
@@ -12,7 +12,7 @@
 
 <br/>
 
-### Configure your environment
+## Configure your environment
 Rename **`.env.example`** to **`.env`** and add your Loom API key.
 
 <br/>
@@ -49,11 +49,14 @@ More details in **[brainstorm/outline.txt](./brainstorm/outline.txt)**
 <img alt="loom response actions" src="public/static/screen%20shots/4.png" width="230px" height=""/>
 <img alt="loom response actions" src="public/static/img/thank-you-CTA.png" width="204px" height=""/> <br/> -->
 
-## Action Items
+## The Flow
+### Loom greeting card example (< 1 min)
+<a href="https://rebrand.ly/loom-greeting-sample-1" target="_blank"><img alt="sample 1 demo" src="public/static/img/thumbnail/greeting-sample-1.png" width="350px" height=""/></a>
+
+### Action Items
 ### Recipient response example - video comment
 <img alt="video-comment-response" src="public/static/img/video-comment.png" width="650px" height=""/> 
-
-<br/>
+<img alt="video-comment-response" src="public/static/img/video-comment-1.png" width="650px" height=""/> 
 
 ### E-Gift example via Loom CTA
 <a href="https://www.freshly.com/gifts/redeem" target="_blank"><img alt="video-comment-response" src="public/static/img/loom-gift-CTA.png" width="250px" height=""/></a>
@@ -74,23 +77,30 @@ More details in **[brainstorm/outline.txt](./brainstorm/outline.txt)**
 - Congrats, Job Promotion, Job Well Done, Project Success
 - Thank You, Apology, Farewell, Retirement, Maternity Leave
 - Words of Encouragement, Special Announcement, New Hire Welcome Kit
+- Job Interview, You're Hired, You're Promoted, Long-Time Employees Appreciation
+- Breaking Bad News - Sweet/Funny Job Rejection or You're Fired Cards*
  
+\*For employers - avoid the awkwardness of breaking bad news to loyal, laid off employees who have devoted their livelihoods to their work or to unsuccessful job applicants who have invested time and interest into applying and/or interviewing for a position at a company.
+
+The business benefit of a kind sendoff is it may garner positive ratings + reviews on company review sites and protect a company's brand and public image. The humanitarian benefit of a warm, human-sounding rejection message is it could lift someone's spirit at a point where they are already feeling discouraged and worthless. Maybe this will never happen, but one can only dream **💭🌈**
+
 <br/>
 
 ## Seeing Beyond
 
 ### Beyond the Holidays + Workplace
 
-Although this hack was made with the holidays + professional workplace in mind, I see it extending beyond those boundaries. Not everyone celebrates holidays or has days that they look forward to. A virtual greeting app has the potential to reach so many, including hospital patients, cancer patients, the chronically or terminally ill, anyone down on their luck who has lost their job, home, health or loved one, someone going through a life-changing event, pregnant soon-to-be mothers, etc. Greetings aren't only for holidays and celebrations. Words of support and encouragement can mean a lot, especially during hard times. Each have their own charm, but receiving a direct video message can be a much more personal, engaging, empowering and uplifting experience than a long, heartfelt text message alone.
+Although this hack was made with the holidays + professional workplace in mind, I see it extending beyond those boundaries. Not everyone celebrates holidays or has days that they look forward to. A virtual greeting app has the potential to reach so many, including hospital patients, cancer patients, the chronically or terminally ill, anyone down on their luck who has lost their job, home, health or loved one, someone going through a life-changing event, pregnant soon-to-be mothers, etc. Greetings aren't only for holidays and celebrations. Words of support and encouragement can mean a lot, especially during hard times. Each have their own charm, but receiving a direct video message can be a much more personal, engaging, empowering and uplifting experience compared to a long, heartfelt text message alone.
 
 Mainstream video + photo sharing platforms have also introduced and promoted short form videos. But their application is typically one-to-many, where one creator uploads a video to an audience of viewers. So it’s interesting to see Loom approach video sharing from a different angle. What if content creators, artists, influencers and vloggers could interact with their fans or followers 1-1 via async video messaging? This opens the door for a virtual fan meet and greet that can happen whenever & wherever because video messages aren’t time or location dependent. I believe this is something that both parties could appreciate, with the proper checks in place ofc.
 
-My experience with commenting on the top social video sharing platform hasn't been all the best. I find that I, along with many others, have to keep reposting the same comment under any and every video that a creator uploads until it sticks because the comments automatically get removed at random (it's a hit or a miss)... possibly due to the length of my comments, although I can't say for sure. And the only way to even know whether or not a comment has gone through is to check while logged out. It's a whole tiresome process that can dissuade any viewer from commenting at all. (Ironically, YT's spam filter has only encouraged me to 'spam' even more 😁). All this to say, an advantage of communicating via Loom VM (video message) is that it can save time by possibly getting past those faulty spam text filters and condensing long text messages into easier-to-digest video recordings.
+My experience with commenting on the top social video sharing platform hasn't been all the best. I find that I, along with many others, have to keep reposting the same comment under any and every video that a creator uploads until it sticks because the comments automatically get removed at random (it's a hit or a miss)... possibly due to the length of my comments, although I can't say for sure. And the only way to even know whether or not a comment has gone through is to check while logged out. It's a whole tiresome process that can dissuade any viewer from commenting at all. (Ironically, YT's spam filter has only encouraged me to 'spam' even more 😁). My Devpost account was also recently auto suspended immediately after submitting a discussion post that was apparently too long. Turns out I have a real problem with typing novels that neither bots nor humans have the time or patience to deal with 🥱. All this to say, an advantage of communicating via Loom VM (video message) is that it can save time by possibly getting past those faulty spam text filters and condensing long text messages into easier-to-digest video recordings.
 
-To demonstrate what this could look like, I turned a portion of my long text comments into a video message greeting:
+To demonstrate what this could look like, I turned a portion of my long text comments into a video message greeting.
 
 ### Text vs Video: Notice the difference?
 <img alt="long text comments" src="https://rebrand.ly/long-text-comments" width="850px" height=""/>
+<img alt="text comment" src="https://rebrand.ly/text-comment-2" width="420px" height=""/>
 
 ### Non-Holiday + Non-Work Related Greeting Example
 
@@ -98,9 +108,11 @@ To demonstrate what this could look like, I turned a portion of my long text com
 
 **🍀 Note**: An actual greeting VM would be more natural, more personal & engaging (think inside jokes, personal memos, photo collage, digital art, portraits, caricatures, sketches, spoken word, serenades, storytelling, etc). 
 
+<br/>
+
 Now, if I sent this VM greeting to someone located halfway across the globe, they could watch it in their own time, replay the message however many times they want/need to hear it, and respond with their own Loom video or comment. This would then start a chain reaction of spreading positive vibes. Bonus points if you can get someone to smile or laugh with your greeting message. 
 
-Not being able to respond to a comment to your comment cuts off the start of any discussion, which defeats the purpose of having a discussion thread in the first place 😑. Async audio messaging, voice memos & voicemail are already convenient communication tools for many. The future of async video adoption looks promising.
+Not being able to respond to a comment to your comment cuts off the start of any discussion, which defeats the purpose of having a discussion thread in the first place 😑. Async audio messaging, voice memos & voicemail are already convenient communication tools for many. The future of mainstream async video messaging adoption seems promising.
 
 ### The Weight of a Message
 Proof of the <strong>✨</strong> positive impact <strong>✨</strong> that supportive comments & messages can have:
@@ -109,23 +121,17 @@ Proof of the <strong>✨</strong> positive impact <strong>✨</strong> that supp
 <a href="https://rebrand.ly/supportive-comments-impact" target="_blank">therapeutic for this one talented creator & amazing mother of three</a>.
 > **👩🏼‍⚕️👩🏾‍⚕️👩🏻‍⚕️ + 🤰👩‍👦👩‍👧‍👦 + 🌍 + 💕💬 = ✨🤱🏻✨ + 💪**
 
-<!-- > **✨ <a href="https://rebrand.ly/supportive-comments-impact" target="_blank">video link</a> ✨** -->
-
-
-
 <br/>
 
 ## Loom Demos
-### Shorter Demo - Trimmed (1 min)
-<a href="https://rebrand.ly/loom-short-demo" target="_blank"><img alt="short demo" src="public/static/img/thumbnail/loom-short-demo.png" width="350px" height=""/></a>
+### **✄** Shorter Demo - Trimmed (1 min)
+<a href="https://rebrand.ly/loom-short-demo" target="_blank"><img alt="short demo" src="public/static/img/thumbnail/loom-short-demo.png" width="350px" height=""/></a><br/>
+Inception - a video recording of a video recording ッ
 
-### Video Greeting Sample I - Spoken (< 1 min)
-<a href="https://rebrand.ly/loom-greeting-sample-1" target="_blank"><img alt="sample 1 demo" src="public/static/img/thumbnail/greeting-sample-1.png" width="350px" height=""/></a>
+### **🎵** Loom Music Video Greeting Sample (1 min)
+<a href="https://rebrand.ly/loom-greeting-sample-2" target="_blank"><img alt="sample 2 demo" src="public/static/img/thumbnail/greeting-sample-2.png" width="350px" height=""/></a><br/>
 
-### Video Greeting Sample II - Music Video (1 min)
-<a href="https://rebrand.ly/loom-greeting-sample-2" target="_blank"><img alt="sample 2 demo" src="public/static/img/thumbnail/greeting-sample-2.png" width="350px" height=""/></a>
-
-### Full App Demo (4 min)
+### **🍿** Full App Demo (4 min)
 <a href="https://rebrand.ly/loom-hack-demo" target="_blank"><img alt="loom hack demo" src="public/static/img/thumbnail/demo.png" width="350px" height=""/></a>
 
 ➕ Click thumbnail to watch video in a new browser tab
